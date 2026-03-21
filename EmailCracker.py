@@ -89,5 +89,4 @@ for password in passwfile:
 		print (bcolors.UNDERLINE + "Password Found: %s"  % password + bcolors.ENDC)
 		break;
 	except smtplib.SMTPAuthenticationError:
-		print (bcolors.FAIL + "Password Incorrect: %s" % password + bcolors.ENDC)
 		print (bcolors.FAIL + "Password Incorrect: %s" % password + bcopasswfile = open(passwfile, "r")lors.ENDCpasswfile = open(passwfile, "r"))
